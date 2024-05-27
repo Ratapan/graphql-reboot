@@ -1,0 +1,33 @@
+.rockets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.rocket {
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid var(--secondary-color);
+}
+.rocket__title {
+  border-bottom: 1px solid var(--secondary-color);
+  padding-left: 0.4rem;
+  padding-bottom: 0.2rem;
+}
+.rocket__body {
+  padding: 0.5rem 0.5rem 1rem 0.5rem;
+}
+.rocket__description {
+}
+.rocket__list {
+  padding: 1rem 0;
+  padding-inline-start: 25px;
+
+  margin-block-start: 0.1em;
+}
+.rocket__li {
+}
+.rocket__wikipedia {
+}
+.rocket__wikipedia-link {
+}
